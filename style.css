@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, transparent, rgb(2, 56, 204));
+    height: 100vh;
+}
+
+.flex-container{
+    margin: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    background: linear-gradient(to top, rgb(1, 55, 136), white, rgb(2, 252, 239));
+}
+
+.flex-img{
+    background: linear-gradient(to top, rgb(1, 55, 136), white, rgb(2, 252, 239));
+    width: 20%;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: .5px solid white;
+}
+
+.img{
+    padding: px;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.flex-form{
+    display: flex;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    width: 80vw;
+    height: 60vh;
+    flex-direction: column;
+}
+
+/*.h1{
+    text-transform: uppercase;
+    padding: 1px;
+    justify-content: center;
+    display: flex;
+}*/
+
+.form{
+}
+
+.form__field{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.form__input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to bottom, rgb(1, 55, 136), rgb(2, 252, 239));
+    height: 20px;
+    color: black;
+}
+
+.form__input:focus{
+    background: linear-gradient(to bottom,rgb(2, 252, 239) , rgb(1, 55, 136));
+    border: 1px solid rgb(0, 0, 102);
+    color: white;
+}
+
+.form__textarea{
+    resize: none;
+    width: 99.5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 50px;
+    background: linear-gradient(to bottom, rgb(1, 55, 136), rgb(2, 252, 239));
+    color: black;
+}
+
+.form__textarea:focus{
+    background: linear-gradient(to bottom,rgb(2, 252, 239) , rgb(1, 55, 136));
+    border: 1px solid rgb(0, 0, 102);
+    color: white;
+}
+
+.form__submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form__submit-input{
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+
+.form__submit-input:active{
+    background: linear-gradient(to bottom, rgb(1, 55, 136), rgb(2, 252, 239));
+    color: white;
+}
